@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  var height = parseInt(prompt("Enter your age:"));
+  var height = parseInt(prompt("Enter your height (in inches):"));
 
   if(height <= 35){
     $('#rideOne').show();
@@ -11,6 +11,9 @@ $(document).ready(function() {
     $("#rideOne").show();
     $("#rideTwo").show();
     $("#rideThree").show();
-    
+  } else {
+    alert("Enter a valid height");
+    parseInt(prompt("Enter your height (in inches)"));
   }
+
 });
