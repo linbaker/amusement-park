@@ -1,9 +1,16 @@
-#rideOne {
+#rideOneHighlight {
   display: none;
+  /* background-color: yellow; */
 }
-#rideTwo {
+#rideTwoHiglight {
   display: none;
+  /* background-color: yellow; */
 }
-#rideThree{
+#rideThreeHighlight{
   display: none;
+  /* background-color: yellow; */
+}
+
+.starlight {
+  background-color: yellow;
 }
